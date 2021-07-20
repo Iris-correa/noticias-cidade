@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@media screen and (max-width:850px){
+
+    body{
+        width:100%;
+        margin: 0 auto;
+    }
+    nav{
+        width:100%;
+    }
+   header{
+       width:100%;
+       padding:0;
+   }
+/*Retirar imagem mapa*/   
+   header .topo{
+    height:1%; 
+    padding-top: 0;
+}
+
+/*Reajuste Logo*/
+
+.logo{
+    width: 60%;
+    margin: 2% 2% 0px 20%;
+}
+
+/*Reajuste da navegação*/
+
+.topo ul a{
+    width: 100%;
+    display: inline-block;
+    padding: 0.2em 0.8em;
+    line-height: 1.5em;
+}
+/*Ajuste de largura main*/
+
+   main{
+       width: 100%;
+       margin: 10px auto;
+   }
+
+/*Reajuste de largura pra as páginas*/
+   #coluna3 #cont-primario,
+   #cont-secundario,
+   #coluna2 #cont-primario,
+   #coluna1 #cont-primario {
+    width: 90%;
+    margin-left: 10px;
+}
+/*Imagens das div's(mundo e noticias-recentes) home */
+
+.mundo img ,.noticias-recentes img {
+    width: 25%;
+}
+/*Retirar barra lateral do modo responsivo*/
+#cont-lateral{
+    margin:0 0 0px -5000px;
+}
+/*Reirar background da navegação*/
+body.home .nav1 a#home,
+body.brasil .nav1 a#brasil,
+body.inter .nav1 a#inter,
+body.eco .nav1 a#eco,
+body.saude .nav1 a#saude,
+body.ciencia .nav1 a#ciencia
+{
+    color: #fff;
+    background:#b10333;
+} 
+
+/*Ajuste cabeçalho*/
+    footer{
+        width:100%;
+    }
+}
