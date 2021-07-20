@@ -58,17 +58,6 @@
 #cont-lateral{
     margin:0 0 0px -5000px;
 }
-/*Reirar background da navegação*/
-body.home .nav1 a#home,
-body.brasil .nav1 a#brasil,
-body.inter .nav1 a#inter,
-body.eco .nav1 a#eco,
-body.saude .nav1 a#saude,
-body.ciencia .nav1 a#ciencia
-{
-    color: #fff;
-    background:#b10333;
-} 
 
 /*Ajuste cabeçalho*/
     footer{
